@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hotel Feedback Form</title>
+    </head>
+<body>
+    <header>
+        <h1>Hotel Feedback Form</h1>
+        <p>Thank you for staying with us. Please provide feedback on your recent stay, so we can improve for your next visit.</p>
+    </header>
+<main>
+    <form method="post" action="/submit-feedback">
+        <fieldset>
+            <legend>Guest Information</legend>
+            <label for="name" id="name">Name:</label>
+            <input type="text" id="name" name="name" requiered placeholder="Johnathan Putingtae"><br>
+            <label for="email" id="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="sample@email.com"><br>
+            <label for="phone" id="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="09208659321"><br>
+            <label for="age" id="age">Age:</label>
+            <input type="number" id="age" name="age" required min="10" max="100" placeholder="10"><br>
+            <label for="gender" id="gender">Gender:</label>
+            <select id="dropdown" id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Stay Details</legend>
+            <label for="date">Check-in Date:</label>
+            <input type="date" id="date" name="date" required min="2025-01-01" max="2025-12-31"><br>
+            <label for="first-time">Is this your first stay with us?</label><br>
+            <input type="radio" id="yes" name="first-time" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="first-time" value="no">
+            <label for="no">No</label>
+        </fieldset>
+    </form>
+</main>
+</body>
+</html>

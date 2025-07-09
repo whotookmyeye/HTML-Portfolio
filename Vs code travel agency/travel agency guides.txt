@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Agency Page.</title>
+    <meta
+      name="description"
+      content=" Our travel agency is your gateway to unforgettable journeys. We design personalized travel experiences—flights, hotels, tours, and more—tailored to your style and budget. Wherever you dream of going, we’ll get you there with ease and care."
+    />
+  </head>
+  <h1>Destinations<h1>
+    <ul>
+      <li>Japan</li>
+      <li>Philippines</li>
+      <li>Korea</li>
+      <li>Hawaii</li>
+      <li>and much more</li>
+    </ul>
+  <p>At our travel agency, we provide a wide range of travel opportunities designed to suit every interest and lifestyle. Whether you're dreaming of a relaxing beach vacation, a romantic honeymoon, or a fun-filled family getaway, we have the perfect package for you. For the adventurous traveler, we offer thrilling experiences such as safaris, trekking, diving, and cultural immersion tours. We also specialize in organizing group travel including corporate retreats, student tours, religious pilgrimages, and destination weddings. For those seeking something truly unique, we create tailor-made itineraries focused on luxury, food and wine, history, or photography. In addition, we offer exclusive seasonal deals, last-minute escapes, and holiday specials to help you make the most of your time and budget. Wherever you want to go, we’re here to make the journey unforgettable.</p>
+<section>
+  <h2>Packages</h2>
+  <p>We offer a range of travel packages to suit every need. From romantic honeymoon getaways and fun-filled family vacations to thrilling adventure trips and spiritual pilgrimages, we have something for everyone. Enjoy luxury with our premium packages, explore with group tours, or take a quick break with our weekend getaways. For a truly unique experience, our customized packages let you design the perfect trip.</p>
+</section>
+<section>
+<ul>
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+</ul>
+</section>
+<section>
+  <h2>Top Itineraries.</h2>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="a colloseum, located at the heart of rome.">
+    </a>
+    <figcaption>Built in 70–80 AD, it once hosted gladiator battles, public spectacles, and dramas. Today, it stands as a powerful monument to Rome’s rich history and architectural brilliance.</figcaption>
+  </figure>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="The Alps are a stunning mountain range stretching across Europe.">
+    </a>
+    <figcaption>Known for their breathtaking scenery, snow-capped peaks, and world-class skiing. They offer year-round adventure, from winter sports to summer hiking and picturesque alpine villages.</figcaption>
+  </figure>
+  <figure>
+    </a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="The sea is a vast, beautiful expanse of saltwater that inspires peace and wonder.">
+    </a>
+    <figcaption>Its waves, marine life, and endless horizon make it perfect for exploration, relaxation, and connection with nature.</figcaption>
+  </figure>
+</section>
+</html>

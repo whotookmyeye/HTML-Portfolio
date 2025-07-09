@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple movie rating I created for a lab exercise.">
+        <title>Movie Rating</title>
+    </head>
+    <body>
+        <main>
+            <h1>Movie Rating</h1>
+            <nav>
+                <ul>
+                    <li><a href="#john-wick">John Wick</a></li>
+                    <li><a href="#avatar">Avatar</a></li>
+                    <li><a href="#about">About This Page</a></li>
+                    <li><a href="#recommendations">Movie Recommendations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <section id="john-wick">
+                <h2>John Wick</h2>
+                <figure>
+                    <img src="John Wick.jpeg" alt="Titular hero John Wick pointing a Gun">
+                    <figcaption><strong>The Legendary "Babayaga" John Wick</strong></figcaption>
+                </figure>
+                <p>John Wick had already lost everything that mattered — his beloved wife taken by a terminal illness. But in her final act of love, she left him a small beacon of hope: a puppy, a gift to help him find peace. That peace was shattered when the son of a powerful Russian mob boss broke into his life, stealing his prized 1969 Mustang and mercilessly killing the last gift from his wife. What they didn’t know — what they never could’ve imagined — was that John Wick isn’t just a man in mourning. He’s a legend of the underworld… and they just gave him a reason to come back.</p>
+                <p><strong>Rating: </strong><span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9.2/10)</p>
+                <h3>Cast:</h3>
+                <ul>
+                    <li><strong>Keanu Reeves</strong> as John Wick</li>
+                    <li><strong>Michael Nyqvist</strong> as Viggo Tarasov</li>
+                    <li><strong>Alfie Allen</strong> as Iosef Tarasov</li>
+                    <li><strong>Willem Dafoe</strong> as Marcus</li>
+                    <li><strong>Adrianne Palicki</strong> as Ms. Perkins</li>
+                    <li><strong>Dean Winters</strong> as Avi</li>
+                    <li><strong>Bridget Moynahan</strong> as Helen Wick</li>
+                </ul>
+                <h3>Trailer:</h3>
+                <iframe src="https://youtube.com/embed/2AUmvWm5ZDQ?si=ylJRtQaJFowdeMXf" width="640" height="400" allowfullscreen></iframe><br>
+                <form>
+                    <fieldset>
+                        <legend>Would you recommend this movie?</legend>
+                        <input type="radio" name="recommend" id="recommend-yes" value="yes">
+                        <label for="recommend-yes">Yes</label>
+                        <input type="radio" name="recommend" id="recommend-no" value="no">
+                        <label for="recommend-no">No</label> 
+                    </fieldset>
+                </form>
+            </section>
+            <section id="avatar">
+                <h2>Avatar</h2>
+                <figure>
+                    <img src="Avatar.jpg" width="800" height="656" alt="A Na'vi warrior standing in a lush, bioluminescent forest on Pandora">
+                    <figcaption><strong>Jake Sully in Avatar</strong></figcaption>
+                </figure>
+                <p>On the distant, breathtaking world of Pandora, humanity’s greed threatens to destroy a paradise. Jake Sully, a broken Marine, is thrust into an epic conflict when he’s chosen to inhabit an Avatar—a genetically engineered Na’vi body. As he journeys deep into the heart of Pandora’s wonders and dangers, Jake finds himself torn between duty and a newfound love for the Na’vi people and their way of life. When war erupts, he must choose: stand with those who would conquer, or fight for a world—and a people—worth saving. The fate of Pandora hangs in the balance.</p> 
+                <p><strong>Rating: </strong><span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9.2/10)</p>
+                <h3>Cast:</h3>
+                <ul>
+                    <li><strong>Sam Worthington</strong> as Jake Sully</li>
+                    <li><strong>Zoe Saldana</strong> as Neytiri</li>
+                    <li><strong>Sigourney Weaver</strong> as Dr. Grace Augustine</li>
+                    <li><strong>Stephen Lang</strong> as Colonel Miles Quaritch</li>
+                    <li><strong>CCH Pounder</strong> as Mo'at</li>
+                    <li><strong>Giovanni Ribisi</strong> as Parker Selfridge</li>
+                </ul>
+                <h3>Trailer:</h3>
+                <iframe src="https://youtube.com/embed/5PSNL1qE6VY?si=y9QhqWR-P0ZbMU9A" width="640" height="400" allowfullscreen></iframe><br>
+                <form>
+                    <fieldset>
+                        <legend>Would you recommend this movie?</legend>
+                        <input type="radio" name="recommend2" id="recommend2-yes" value="yes"> 
+                        <label for="recommend2-yes">Yes</label>
+                        <input type="radio" name="recommend2" id="recommend2-no" value="no">
+                        <label for="recommend2-no">No</label>
+                    </fieldset>
+                </form>
+            </section>
+            <hr>
+            <section id="about">
+                <h2>About This Page</h2>
+                <p>This page is a simple movie rating and review page created for a lab exercise. It includes information about popular movies, along with their cast, trailers, and a recommendation section.</p>
+                <p>Feel free to leave your own movie recommendations or comments in the textarea below!</p>
+            </section>
+            <section id="recommendations">
+                <h2>Movie Recommendations</h2>
+                <p>Share your favorite movies or any recommendations you have:</p>
+                <form>
+                    <textarea rows="4" cols="50" placeholder="Leave your Movie recommendations here..."></textarea><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>  
+            <section id="contact">
+                <h2>Contact:</h2>
+                <p>If you have any questions or suggestions, feel free to reach out!</p>
+                <p>Phone: <a href="tel:+155555555555">+1 (555) 555-5555</a></p>
+                <p>Email: <a href="mailto:sample@email.com">sample@email.com</a></p>
+            </section>
+            <footer>
+                <p>Movie Review and Recommendation exercise.</p>
+                <p>Created by Ryan Suda</p>
+            </footer>
+        </main>
+    </body>
+</html>

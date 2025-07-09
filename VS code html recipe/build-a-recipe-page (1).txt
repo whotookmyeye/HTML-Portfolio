@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pork Sisig Recipe</title>
+</head>
+<body>
+  <img src="https://i.imgur.com/6QU0uaE.jpg" alt="Pork Sisig" width="500">
+  <h1>Pork Sisig</h1>
+  <p>Sisig is a popular Filipino dish that originated in Pampanga, a province in the Philippines known for its rich culinary history and innovation. The dish is known for its savory, tangy, and sometimes spicy flavor profile. It's usually served with alcohol or as part of a meal with rice. Sisig has since become a beloved dish not only in Pampanga but also across the Philippines and internationally, especially in Filipino communities abroad.</p>
+
+  <section>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Pork
+        <ul>
+          <li>Pork ears</li>
+          <li>Pork belly</li>
+          <li>Pork face (snout, cheek, and jowl)</li>
+          <li>Liver or liver spread (optional)</li>
+        </ul>
+      </li>
+      <li>Onion</li>
+      <li>Garlic</li>
+      <li>Chili pepper
+        <ul>
+          <li>Siling labuyo (wild chili)</li>
+          <li>Siling haba (green long chili)</li>
+        </ul>
+      </li>
+      <li>Calamansi</li>
+      <li>Soy sauce</li>
+      <li>Vinegar</li>
+      <li>Salt and pepper</li>
+      <li>Mayonnaise (optional)</li>
+      <li>Fish sauce (optional)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Instructions</h2>
+    <ol>
+      <li>Boil pork (belly, ear, etc.) for 30 minutes or until tender.</li>
+      <li>Grill or fry pork parts for a crispy exterior.</li>
+      <li>Chop the pork into small pieces.</li>
+      <li>Chop onion, garlic, and chilies.</li>
+      <li>Sauté the pork in a hot pan with onions, garlic, chili, and seasonings.</li>
+      <li>Add vinegar and soy sauce, then simmer briefly to blend the flavors.</li>
+      <li>Finish with calamansi juice, and top with mayonnaise (optional) before serving.</li>
+      <li><a href="https://i.imgur.com/6QU0uaE.jpg" target="_blank">Pair with rice or alcohol (beer)</a></li>
+    </ol>
+  </section>
+</body>
+</html>

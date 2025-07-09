@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <h1 id="title">Ryan and Nari's Restaurant Feedback Form</h1>
+  <p id="description">Our restaurant pays excellent care and consideration towards providing with the best food and table service. We would appreciate your time in our customer satisfaction survey. We appreciate your suppport</p>
+  <form id="survey-form">
+    <fieldset>
+      <legend>Feedback Form</legend>
+        <label for="name-label" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Jonathan Putingtae" /><br>
+        <label for="email-label" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="sample@email.com" /><br>
+        <label for="telno-label" id="telno-label">Phone Number:</label>
+        <input type="tel" id="telno" name="telno" required placeholder="09208659321"/><br> 
+        <label for="number-label" id="number-label">Age:</label>
+        <input type="number" id="number" name="age" required min="10" max="100" placeholder="10"><br>
+        <label for="gender-label" id="gender-label">Gender:</label>
+        <select id="dropdown">
+          <option value="male">Male</option>
+          <option value="female">Female</option>  
+        </select><br>
+        <label for="date">Day Visited</label>
+        <input type="date" id="date" name="date" min="2025-01-01" max="2025-12-31">
+    </fieldset>
+    <fieldset>
+      <legend>Was this your first time in our restaurant?</legend>
+      <label for="yes"><input type="radio" id="yes" name="first-time" value="yes">Yes</label>
+      <label for="no"><input type="radio" id="no" name="first-time" value="no">No</label>
+    </fieldset>
+    <fieldset>
+      <legend>Rating</legend>
+        <label for="freshness">Freshness:</label>
+        <select id="dropdown">
+          <option value="poor">Poor</option>
+          <option value="satisfactory">Satisfactory</option>
+          <option value="good">Good</option>
+          <option value="very-good">Very Good</option>
+          <option selected value="excellent">Excellent</option>
+        </select><br>
+        <label for="menu">Menu Diversity:</label>
+        <select>
+          <option value="poor">Poor</option>
+          <option value="satisfactory">Satisfactory</option>
+          <option value="good">Good</option>
+          <option value="very-good">Very Good</option>
+          <option selected value="excellent">Excellent</option>
+        </select><br>
+        <label for="response">Response time of the staff:</label>
+        <select>
+          <option value="poor">Poor</option>
+          <option value="satisfactory">Satisfactory</option>
+          <option value="good">Good</option>
+          <option value="very-good">Very Good</option>
+          <option selected value="excellent">Excellent</option>
+        </select><br>
+        <label for="politness">Politness of the staff:</label>
+        <select>
+          <option value="poor">Poor</option>
+          <option value="satisfactory">Satisfactory</option>
+          <option value="good">Good</option>
+          <option value="very-good">Very Good</option>
+          <option selected value="excellent">Excellent</option>
+        </select>
+    </fieldset>
+        <fieldset>
+      <legend>How did you hear about us?</legend>
+      <label for="facebook"><input type="checkbox" id="facebook" name="hear" value="facebook">Facebook</label>
+      <label for="instagram"><input type="checkbox" id="instagram" name="hear" value="instagram">Instagram</label>
+      <label for="youtube"><input type="checkbox" id="youtube" name="hear" value="youtube">Youtube</label>
+      <label for="mouth"><input type="checkbox" id="mouth" name="hear" value="mouth">Word of mouth</label>
+      <label for="other"><input type="checkbox" id="other" name="hear" value="other">Other</label>
+    </fieldset>
+    <label for="comments">Leave us a comment</label>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</html>
